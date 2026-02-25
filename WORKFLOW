@@ -1,0 +1,8 @@
+check_pr/
+├── check_pr.py          (the main script above)
+├── README.md            (detailed documentation)
+├── LICENSE              (MIT License)
+├── .gitignore          (ignore unnecessary files)
+├── CONTRIBUTING.md      (contribution guidelines)
+├── requirements.txt     (empty - no dependencies!)
+└── .env.example        (example environment file)
