@@ -1,0 +1,84 @@
+import requests
+import json
+
+def check_prs(username, repo_owner, repo_name):
+    """Check PRs for a user in a repository"""
+    
+    print(f"\n🔍 Searching PRs by @{username} in {repo_owner}/{repo_name}...\n")
+    
+    # Counters
+    total = 0
+    merged = 0
+    pending = 0
+    rejected = 0
+    
+    # Fetch all PRs (using GitHub API)
+    page = 1
+    
+    while True:
+        url = f"https://api.github.com/repos/{repo_owner}/{repo_name}/pulls"
+        params = {
+            'state': 'all',
+            'per_page': 100,
+            'page': page
+        }
+        
+        try:
+            response = requests.get(url, params=params)
+            prs = response.json()
+            
+            # Check if we got an error
+            if isinstance(prs, dict) and 'message' in prs:
+                print(f"❌ Error: {prs['message']}")
+                return
+            
+            # No more PRs
+            if not prs:
+                break
+            
+            # Check each PR
+            for pr in prs:
+                if pr['user']['login'].lower() == username.lower():
+                    total += 1
+                    
+                    if pr.get('merged_at'):
+                        merged += 1
+                        status = "✅ MERGED"
+                    elif pr['state'] == 'open':
+                        pending += 1
+                        status = "⏳ PENDING"
+                    else:
+                        rejected += 1
+                        status = "❌ CLOSED"
+                    
+                    print(f"PR #{pr['number']}: {pr['title'][:60]}")
+                    print(f"   Status: {status}")
+                    print(f"   Link: {pr['html_url']}\n")
+            
+            page += 1
+            
+        except Exception as e:
+            print(f"❌ Error: {e}")
+            return
+    
+    # Print summary
+    print("=" * 60)
+    print("📊 SUMMARY")
+    print("=" * 60)
+    print(f"Total PRs: {total}")
+    print(f"✅ Merged (Accepted): {merged}")
+    print(f"⏳ Pending (Open): {pending}")
+    print(f"❌ Closed (Not Merged): {rejected}")
+    print("=" * 60)
+
+# Main program
+if __name__ == "__main__":
+    print("=" * 60)
+    print("         GITHUB PR CHECKER")
+    print("=" * 60)
+    
+    username = input("\n👤 Enter GitHub username: ").strip()
+    repo_owner = input("🏢 Enter repository owner: ").strip()
+    repo_name = input("📁 Enter repository name: ").strip()
+    
+    check_prs(username, repo_owner, repo_name)
