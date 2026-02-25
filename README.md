@@ -59,7 +59,7 @@
 
 ## 📦 Prerequisites
 
-<div align="center">
+<div align="left">
 
 | Requirement | Description |
 |------------|-------------|
@@ -86,3 +86,15 @@ cd check_pr
 
 # Run the script
 python check_pr.py
+
+```
+## Method 2: Download Directly
+1. Download total_pr_checker.py from this repository
+2. Save it to your desired location
+3. Run it with Python
+
+```bash
+python check_pr.py
+
+```
+
