@@ -14,7 +14,7 @@
 
 ## 📋 Table of Contents
 
-- [Features](##features) -
+- [Features](##Features)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -26,7 +26,7 @@
 
 ---
 
-## ✨ Features
+## Features
 
 <table>
 <tr>
