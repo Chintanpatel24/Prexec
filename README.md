@@ -22,6 +22,7 @@
 - [Limitations](#limitations)
 - [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
+- [Quick Links](#quick-links)
 
 ---
 
@@ -408,7 +409,7 @@ python check_pr.py 2>&1 | tee output.log
 <a name="contributing"> </a>
 ## 🤝 Contributing
 
-# Contributions are welcome! 🎉
+### Contributions are welcome! 🎉
 
 - How to Contribute:
 ```bash
@@ -430,7 +431,7 @@ git push origin feature/AmazingFeature
 # 7. Open a Pull Request
 ```
 
-# 💡 Ideas for Contributions:
+### 💡 Ideas for Contributions:
 
  1. Add support for GitHub Organizations
  2. Export to Excel format
@@ -443,11 +444,27 @@ git push origin feature/AmazingFeature
  9. Create Docker container
 10. Add webhook support for real-time tracking
 
-# 📋 Contribution Guidelines:
+### 📋 Contribution Guidelines:
 1. Follow PEP 8 style guide
 2. Add comments for complex logic
 3. Update README for new features
 4. Keep dependencies minimal (preferably zero)
 5. Test on Python 3.6+
+
+---
+
+<a name="quick-links"> </a>
+## 🔗 Quick Links
+
+<div align="left">
+ 
+|Resource |	Link |
+|-------|---------|
+|📖 GitHub API Docs	| docs.github.com/en/rest |
+|🐍 Python Download |	python.org/downloads |
+|🔑 Create GitHub Token	| github.com/settings/tokens |
+|📚 Pull Request Guide |	docs.github.com/en/pull-requests |
+
+</div>
 
 ---
