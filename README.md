@@ -1,6 +1,6 @@
 <div align="center">
 
-# check_pr - GitHub Pull Request Tracker
+# GitHub Pull Request Tracker
 
 > 🚀 A simple Python tool to check all Pull Requests created by a GitHub user across all their repositories.
 
