@@ -26,7 +26,8 @@
 
 ---
 
-## Features
+<a name="features"></a>
+## ✨ Features
 
 <table>
 <tr>
