@@ -378,7 +378,7 @@ text
 
 ---
 
-<a name="trobuleshooting"> </a>
+<a name="troubleshooting"> </a>
 ## 🛠️ Troubleshooting
 
 
