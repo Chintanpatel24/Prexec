@@ -459,7 +459,7 @@ EXAMPLES:
        - Enter repos one by one
 
 For more information, visit:
-    https://github.com/yourusername/check_pr
+    https://github.com/Chintanpatel24/c-pr
 
     """
     print(help_text)
