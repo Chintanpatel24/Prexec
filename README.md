@@ -156,16 +156,17 @@ Step 3: The script will automatically detect and use it
 <a name="usage"></a>
 ## 🚀 Usage
 - Starting the Tool
- 
+
 ```bash
 
-python c-pr.py
+python3 c-pr.py
 
 ```
+
+<img src="images/1.png">
 
 - Main Menu
 ```
-text
 
 ======================================================================
   GITHUB TOTAL PR CHECKER
@@ -266,9 +267,10 @@ Enter your choice (1-5):
 <a name="example-output"> </a>
 ## 📊 Example Output
 
+<img src="images/2.png">
+
 - Scanning Process:
 ```
-text
 
 ======================================================================
   GITHUB TOTAL PR CHECKER
@@ -300,7 +302,6 @@ Enter your choice (1-5): 1
 ...
 [156/156] Checking gaearon/test-repo... (no PRs)
 Summary Statistics:
-text
 
 ======================================================================
 📊 TOTAL PR STATISTICS FOR @gaearon
@@ -317,7 +318,6 @@ text
 
 - Detailed PR List:
 ```
-text
 
 ======================================================================
 ✅ MERGED PRs (38):
@@ -361,7 +361,7 @@ text
       Created: 2024-01-01 | Closed: 2024-01-03
       Link: https://github.com/facebook/react/pull/111
 ```
-
+<img src="images/4.png">
 ---
 
 <a name="limitations"> </a>
