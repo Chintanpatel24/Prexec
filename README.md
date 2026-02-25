@@ -19,10 +19,9 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Example Output](#example-output)
-- [How It Works](#how-it-works)
 - [Limitations](#limitations)
+- [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
-- [License](#license)
 
 ---
 
@@ -364,3 +363,91 @@ text
 
 ---
 
+<a name="limitations"> </a>
+## ⚠️ Limitations
+
+🔄 GitHub API Rate Limits
+
+<div align="left">
+ 
+| Authentication |	Rate Limit |	Resets After |
+|---------------|--------|---------|
+| ❌ Without Token	| 60 requests/hour	| 1 hour |
+| ✅ With Token	| 5,000 requests/hour	| 1 hour |
+
+---
+
+<a name="trobuleshooting"> </a>
+## 🛠️ Troubleshooting
+
+
+<div align="left">
+
+
+| Issue |	Solution |
+|---------|---------|
+| python: command not found |	Use python3 check_pr.py instead |
+| HTTP Error 403: rate limit exceeded	| Wait 1 hour or add GitHub token |
+| HTTP Error 404: Not Found |	Check if username/repo exists |
+| Shows 0 PRs	| User has no PRs or repos are private |
+| Script freezes |	User has many repos; wait for completion |
+| ModuleNotFoundError	| Ensure Python 3.6+ is installed |
+
+</div>
+
+- Debug Mode:
+
+```bash
+# Run with output logging
+python check_pr.py 2>&1 | tee output.log
+
+```
+
+---
+
+<a name="contributing"> </a>
+## 🤝 Contributing
+
+# Contributions are welcome! 🎉
+
+- How to Contribute:
+```bash
+
+# 1. Fork the repository
+# 2. Clone your fork
+git clone https://github.com/YOUR_USERNAME/check_pr.git
+
+# 3. Create a feature branch
+git checkout -b feature/AmazingFeature
+
+# 4. Make your changes
+# 5. Commit your changes
+git commit -m "Add some AmazingFeature"
+
+# 6. Push to the branch
+git push origin feature/AmazingFeature
+
+# 7. Open a Pull Request
+```
+
+# 💡 Ideas for Contributions:
+
+ 1. Add support for GitHub Organizations
+ 2. Export to Excel format
+ 3. Create a GUI version
+ 4. Add data visualization (charts/graphs)
+ 5. Filter PRs by date range
+ 6. Add progress bar for large scans
+ 7. Multi-threading for faster scanning
+ 8. Add unit tests
+ 9. Create Docker container
+10. Add webhook support for real-time tracking
+
+# 📋 Contribution Guidelines:
+1. Follow PEP 8 style guide
+2. Add comments for complex logic
+3. Update README for new features
+4. Keep dependencies minimal (preferably zero)
+5. Test on Python 3.6+
+
+---
