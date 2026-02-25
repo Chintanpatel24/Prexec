@@ -58,6 +58,7 @@
 
 ---
 
+<a name="prerequisites"></a>
 ## 📦 Prerequisites
 
 <div align="left">
@@ -74,6 +75,7 @@
 
 ---
 
+<a name="installation"></a>
 ## 🔧 Installation
 
 ### Method 1: Clone the Repository
