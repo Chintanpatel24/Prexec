@@ -82,22 +82,22 @@
 
 ```bash
 # Clone this repository
-git clone https://github.com/Chintanpatel24/check_pr.git
+git clone https://github.com/Chintanpatel24/c-pr.git
 
 # Navigate to the directory
-cd check_pr
+cd c-pr
 
 # Run the script
-python check_pr.py
+python c-pr.py
 
 ```
 ### Method 2: Download Directly
-1. Download total_pr_checker.py from this repository
+1. Download c-pr.py from this repository
 2. Save it to your desired location
 3. Run it with Python
 
 ```bash
-python check_pr.py
+python c-pr.py
 
 ```
 ### Method 3: Quick Download (Using wget or curl)
@@ -107,10 +107,10 @@ python check_pr.py
 ```bash
 
 # Download the script
-wget https://raw.githubusercontent.com/yourusername/check_pr/main/check_pr.py
+wget https://raw.githubusercontent.com/Chintanpatel24/c-pr/main/c-pr.py
 
 # Run it
-python check_pr.py
+python c-pr.py
 
 ```
 
@@ -119,10 +119,10 @@ python check_pr.py
 ```bash
 
 # Download the script
-curl -O https://raw.githubusercontent.com/yourusername/check_pr/main/check_pr.py
+curl -O https://raw.githubusercontent.com/Chintanpatel24/c-pr/main/c-pr.py
 
 # Run it
-python check_pr.py
+python c-pr.py
 
 ```
 
@@ -131,7 +131,7 @@ python check_pr.py
 ```bash
 
 # Download and run in one command
-curl -O https://raw.githubusercontent.com/yourusername/check_pr/main/check_pr.py && python check_pr.py
+curl -O https://raw.githubusercontent.com/Chintanpatel24/c-pr/main/c-pr.py && python c-pr.py
 
 ```
 
@@ -159,7 +159,7 @@ Step 3: The script will automatically detect and use it
  
 ```bash
 
-python check_pr.py
+python c-pr.py
 
 ```
 
@@ -416,7 +416,7 @@ python check_pr.py 2>&1 | tee output.log
 
 # 1. Fork the repository
 # 2. Clone your fork
-git clone https://github.com/YOUR_USERNAME/check_pr.git
+git clone https://github.com/Chintanpatel24/c-pr.git
 
 # 3. Create a feature branch
 git checkout -b feature/AmazingFeature
