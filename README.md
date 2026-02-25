@@ -91,7 +91,7 @@ cd check_pr
 python check_pr.py
 
 ```
-## Method 2: Download Directly
+### Method 2: Download Directly
 1. Download total_pr_checker.py from this repository
 2. Save it to your desired location
 3. Run it with Python
@@ -100,7 +100,7 @@ python check_pr.py
 python check_pr.py
 
 ```
-## Method 3: Quick Download (Using wget or curl)
+### Method 3: Quick Download (Using wget or curl)
 
 1. Using wget:
 
@@ -183,7 +183,7 @@ Enter your choice (1-5):
 
 ```
 
-## Method 1: Check All Repositories
+### Method 1: Check All Repositories
 Best for: Getting complete PR statistics across all user's repos
 ```
 text
@@ -202,7 +202,7 @@ The script will:
 
 ✅ Optionally show detailed list or export
 
-## Method 2: Check Single Repository
+### Method 2: Check Single Repository
 Best for: Checking PRs in one specific repository
 ```
 text
@@ -221,7 +221,7 @@ The script will:
 
 ✅ Display statistics
 
-## Method 3: Check Multiple Specific Repositories
+### Method 3: Check Multiple Specific Repositories
 Best for: Checking PRs in selected repositories only
 ```
 text
@@ -261,5 +261,106 @@ What would you like to do?
 
 Enter your choice (1-5):
 ```
+---
+
+<a name="example-output"> </a>
+## 📊 Example Output
+
+- Scanning Process:
+```
+text
+
+======================================================================
+  GITHUB TOTAL PR CHECKER
+  Check all PRs by a user across all their repositories
+======================================================================
+
+🔑 GitHub token detected - using authenticated requests
+
+Select a method:
+1. Check all repositories owned by a user (Method 1)
+2. Check a specific repository (Method 2)
+3. Check multiple specific repositories (Method 3)
+4. Show help
+5. Exit
+
+Enter your choice (1-5): 1
+
+👤 Enter GitHub username: gaearon
+
+🔍 Fetching repositories for @gaearon.... Found 156 repositories!
+
+🔍 Checking PRs in 156 repositories...
+
+[1/156] Checking gaearon/react... ✅ Found 3 PRs
+[2/156] Checking gaearon/redux... ✅ Found 2 PRs
+[3/156] Checking gaearon/my-app... (no PRs)
+[4/156] Checking gaearon/hooks-demo... ✅ Found 1 PR
+[5/156] Checking gaearon/overreacted.io... (no PRs)
+...
+[156/156] Checking gaearon/test-repo... (no PRs)
+Summary Statistics:
+text
+
+======================================================================
+📊 TOTAL PR STATISTICS FOR @gaearon
+======================================================================
+
+📈 Summary Across All Repositories:
+   Total PRs Created: 47
+   ✅ Merged (Accepted): 38
+   ⏳ Pending (Open): 5
+   ❌ Closed (Not Merged): 4
+
+======================================================================
+```
+
+- Detailed PR List:
+```
+text
+
+======================================================================
+✅ MERGED PRs (38):
+======================================================================
+
+  [1] PR #12345 in facebook/react
+      Title: Fix hooks bug in concurrent mode
+      Created: 2024-01-15 | Merged: 2024-01-20
+      Link: https://github.com/facebook/react/pull/12345
+
+  [2] PR #789 in reduxjs/redux
+      Title: Add TypeScript support for middleware
+      Created: 2024-01-10 | Merged: 2024-01-12
+      Link: https://github.com/reduxjs/redux/pull/789
+
+  [3] PR #456 in facebook/create-react-app
+      Title: Update webpack configuration
+      Created: 2024-01-05 | Merged: 2024-01-08
+      Link: https://github.com/facebook/create-react-app/pull/456
+
+======================================================================
+⏳ PENDING PRs (5):
+======================================================================
+
+  [1] PR #999 in facebook/react
+      Title: Add new useEvent hook
+      Created: 2024-01-25
+      Link: https://github.com/facebook/react/pull/999
+
+  [2] PR #888 in reduxjs/redux
+      Title: Improve performance for large stores
+      Created: 2024-01-22
+      Link: https://github.com/reduxjs/redux/pull/888
+
+======================================================================
+❌ CLOSED PRs (4):
+======================================================================
+
+  [1] PR #111 in facebook/react
+      Title: Experimental feature (rejected)
+      Created: 2024-01-01 | Closed: 2024-01-03
+      Link: https://github.com/facebook/react/pull/111
+```
+
 ---
 
