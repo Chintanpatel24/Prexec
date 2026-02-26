@@ -113,6 +113,25 @@ print(matplotlib.__version__)
 ```
 - If no error appears and a version number prints, the installation was successful.
 
+>## Additional Setup Notes :
+
+ 1. Virtual Environments (Recommended)
+- It's best practice to install packages in a virtual environment to avoid conflicts:
+```bash
+python -m venv myenv
+source myenv/bin/activate  # On Windows: myenv\Scripts\activate
+pip install matplotlib
+```
+ 2. System Dependencies
+- On some Linux systems, you might need system libraries first. For example, on Ubuntu/Debian:
+```bash
+sudo apt-get install python3-matplotlib
+```
+ 3. if using pip, ensure you have the development headers:
+```bash
+sudo apt-get install python3-dev
+pip install matplotlib
+```
 
 ---
 
