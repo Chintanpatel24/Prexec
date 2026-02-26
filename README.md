@@ -21,9 +21,9 @@
 - [Demo Graph](#graph)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Example Output](#example-output)
 - [Limitations](#limitations)
 - [Troubleshooting](#troubleshooting)
+- [Example Output](#example-output)
 - [Contributing](#contributing)
 - [Key Features Added](#Key-Features-Added)
 - [Quick Links](#quick-links)
@@ -229,22 +229,9 @@ cd c-pr
 python3 c-pr.py
 
 ```
+- Everything is a commend based !!
 - Main Menu
 <img src="images/use.png">
-
----
-
-<a name="example-output"> </a>
->## 📊 Example Output
-
-<img src="images/u1.png">
-<img src="images/u2.png">
-<img src="images/u3.png">
-<img src="images/u4.png">
-<img src="images/u5.png">
-<img src="images/u6.png">
-<img src="images/u7.png">
-<img src="images/u8.png">
 
 ---
 
@@ -285,8 +272,21 @@ python3 c-pr.py
 ```bash
 # Run with output logging
 python check_pr.py 2>&1 | tee output.log
-
 ```
+
+---
+
+<a name="example-output"> </a>
+>## 📊 Example Output
+
+<img src="images/u1.png">
+<img src="images/u2.png">
+<img src="images/u3.png">
+<img src="images/u4.png">
+<img src="images/u5.png">
+<img src="images/u6.png">
+<img src="images/u7.png">
+<img src="images/u8.png">
 
 ---
 
