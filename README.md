@@ -466,7 +466,6 @@ git push origin feature/AmazingFeature
 | 🔧 Config | 🔒 Security | 🗑️ Deprecation |
 
 ### 2.
-
 |---|Tool Detection (16+ tools)|---|
 |-------|----------|----------|
 | 🖥️ GitHub Web | 💻 GitHub CLI (gh) | 🔧 Git CLI + API |
@@ -481,7 +480,11 @@ git push origin feature/AmazingFeature
 - Shows upward trend (high productivity) or downward trend (low productivity)
 - Color-coded: Green = Profit Zone, Red = Loss Zone
 
+### 4. Graph Output :
 
+- Saved as your-graph-by-cp.png
+- Dark theme with gradient effects
+- 6 different visualizations including the productivity chart
 ---
 <a name="quick-links"> </a>
 >## 🔗 Quick Links
