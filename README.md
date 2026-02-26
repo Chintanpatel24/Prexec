@@ -23,6 +23,7 @@
 - [Limitations](#limitations)
 - [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
+- [Key Features Added](#Key-Features-Added)
 - [Quick Links](#quick-links)
 
 ---
@@ -454,6 +455,55 @@ git push origin feature/AmazingFeature
 
 ---
 
+## 🔑 Key Features Added 
+
+### 1. PR Type Detection (12 types):
+
+🐛 Bug Fix
+
+✨ Feature
+
+📚 Documentation
+
+♻️ Refactor
+
+📦 Dependency
+
+🧪 Test
+
+⚡ Performance
+
+🎨 Style/Lint
+
+🌐 Translation
+
+🔧 Config
+
+🔒 Security
+
+🗑️ Deprecation
+
+### 2. Tool Detection (16+ tools):
+
+🖥️ GitHub Web
+
+💻 GitHub CLI (gh)
+
+🔧 Git CLI + API
+
+🤖 Dependabot
+
+🔄 Renovate Bot
+
+🛡️ Snyk Bot
+
+💜 VS Code
+
+🧠 JetBrains IDE
+
+⚙️ GitHub Actions
+
+---
 <a name="quick-links"> </a>
 ## 🔗 Quick Links
 
