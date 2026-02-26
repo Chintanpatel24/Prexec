@@ -17,6 +17,7 @@
 
 - [Features](#features)
 - [Prerequisites](#prerequisites)
+- [Optional requirement](#requirement)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Example Output](#example-output)
