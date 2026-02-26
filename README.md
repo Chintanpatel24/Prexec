@@ -87,7 +87,31 @@
 - Matplotlib is a popular Python library for creating static, animated, and interactive visualizations.
 - Here's how to install it:
 
+>### Method 1: Using pip (Recommended)
 
+ 1. The simplest way is to use pip, Python's package manager:
+```bash
+pip install matplotlib
+```
+ 2. If you're using Python 3 specifically,you might need:
+```bash
+pip3 install matplotlib
+```
+>### Method 2: Using conda
+
+ 1. If you're using Anaconda or Miniconda, use conda instead:
+```bash
+conda install matplotlib
+```
+
+>## Verifying the Installation
+
+- After installation, verify it worked by opening Python and importing the library:
+```bash
+import matplotlib.pyplot as plt
+print(matplotlib.__version__)
+```
+- If no error appears and a version number prints, the installation was successful.
 
 
 ---
