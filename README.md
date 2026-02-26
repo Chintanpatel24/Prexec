@@ -485,6 +485,15 @@ git push origin feature/AmazingFeature
 - Saved as your-graph-by-cp.png
 - Dark theme with gradient effects
 - 6 different visualizations including the productivity chart
+
+### 5. Loop-Based Menu :
+
+- Returns to main menu after each operation
+- Only exits when user selects option 4
+
+
+
+
 ---
 <a name="quick-links"> </a>
 >## 🔗 Quick Links
