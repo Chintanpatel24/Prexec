@@ -20,6 +20,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Example Output](#example-output)
+- [Graph](#graph)
 - [Limitations](#limitations)
 - [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
@@ -264,6 +265,7 @@ What would you like to do?
 
 Enter your choice (1-5):
 ```
+
 ---
 
 <a name="example-output"> </a>
@@ -364,6 +366,11 @@ Summary Statistics:
       Link: https://github.com/facebook/react/pull/111
 ```
 <img src="images/4.png">
+
+---
+
+<a name="graph"> </a>
+
 ---
 
 <a name="limitations"> </a>
