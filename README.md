@@ -465,25 +465,13 @@ git push origin feature/AmazingFeature
 | ⚡ Performance | 🎨 Style/Lint | 🌐 Translation |
 | 🔧 Config | 🔒 Security | 🗑️ Deprecation |
 
-### 2. Tool Detection (16+ tools):
+>### 2.
 
-🖥️ GitHub Web
-
-💻 GitHub CLI (gh)
-
-🔧 Git CLI + API
-
-🤖 Dependabot
-
-🔄 Renovate Bot
-
-🛡️ Snyk Bot
-
-💜 VS Code
-
-🧠 JetBrains IDE
-
-⚙️ GitHub Actions
+|---|Tool Detection (16+ tools)|---|
+|-------|----------|----------|
+| 🖥️ GitHub Web | 💻 GitHub CLI (gh) | 🔧 Git CLI + API |
+| 🤖 Dependabot | 🔄 Renovate Bot | 🛡️ Snyk Bot |
+| 💜 VS Code | 🧠 JetBrains IDE | ⚙️ GitHub Actions |
 
 ---
 <a name="quick-links"> </a>
