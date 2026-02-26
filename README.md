@@ -111,7 +111,7 @@ python c-pr.py
 wget https://raw.githubusercontent.com/Chintanpatel24/c-pr/main/c-pr.py
 
 # Run it
-python c-pr.py
+python3 c-pr.py
 
 ```
 
