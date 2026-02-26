@@ -2,9 +2,8 @@
 
 <img src="images/title.png">
 
-# GitHub Pull Request Tracker
 
-> 🚀 A simple Python tool to check all Pull Requests created by a GitHub user across all their repositories.
+>## 🚀 A simple Python tool to check all Pull Requests created by a GitHub user across all their repositories.
 
 [![Python](https://img.shields.io/badge/Python-3.6%2B-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
