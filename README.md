@@ -123,7 +123,7 @@ python c-pr.py
 curl -O https://raw.githubusercontent.com/Chintanpatel24/c-pr/main/c-pr.py
 
 # Run it
-python c-pr.py
+python3 c-pr.py
 
 ```
 
