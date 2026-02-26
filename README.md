@@ -13,7 +13,7 @@
 
 ---
 
-## 📋 Table of Contents
+>## 📋 Table of Contents
 
 - [Features](#features)
 - [Prerequisites](#prerequisites)
@@ -29,7 +29,7 @@
 ---
 
 <a name="features"></a>
-## ✨ Features
+>## ✨ Features
 
 <table>
 <tr>
@@ -61,7 +61,7 @@
 ---
 
 <a name="prerequisites"></a>
-## 📦 Prerequisites
+>## 📦 Prerequisites
 
 <div align="left">
 
@@ -78,9 +78,9 @@
 ---
 
 <a name="installation"></a>
-## 🔧 Installation
+>## 🔧 Installation
 
-### Method 1: Clone the Repository
+>### Method 1: Clone the Repository
 
 ```bash
 # Clone this repository
@@ -93,7 +93,7 @@ cd c-pr
 python3 c-pr.py
 
 ```
-### Method 2: Download Directly
+>### Method 2: Download Directly
 1. Download c-pr.py from this repository
 2. Save it to your desired location
 3. Run it with Python
@@ -102,7 +102,7 @@ python3 c-pr.py
 python c-pr.py
 
 ```
-### Method 3: Quick Download (Using wget or curl)
+>### Method 3: Quick Download (Using wget or curl)
 
 1. Using wget:
 
@@ -139,7 +139,7 @@ curl -O https://raw.githubusercontent.com/Chintanpatel24/c-pr/main/c-pr.py && py
 
 ---
 
-## 🔑 Optional: Setup GitHub Token
+>## 🔑 Optional: Setup GitHub Token
 
 - For higher API limits (5000 requests/hour instead of 60):
 
@@ -156,7 +156,7 @@ Step 3: The script will automatically detect and use it
 ---
 
 <a name="usage"></a>
-## 🚀 Usage
+>## 🚀 Usage
 - Starting the Tool
 
 ```bash
@@ -267,7 +267,7 @@ Enter your choice (1-5):
 ---
 
 <a name="example-output"> </a>
-## 📊 Example Output
+>## 📊 Example Output
 
 <img src="images/2.png">
 
@@ -367,7 +367,7 @@ Summary Statistics:
 ---
 
 <a name="limitations"> </a>
-## ⚠️ Limitations
+>## ⚠️ Limitations
 
 🔄 GitHub API Rate Limits
 
@@ -381,7 +381,7 @@ Summary Statistics:
 ---
 
 <a name="troubleshooting"> </a>
-## 🛠️ Troubleshooting
+>## 🛠️ Troubleshooting
 
 
 <div align="left">
@@ -409,7 +409,7 @@ python check_pr.py 2>&1 | tee output.log
 ---
 
 <a name="contributing"> </a>
-## 🤝 Contributing
+>## 🤝 Contributing
 
 ### Contributions are welcome! 🎉
 
@@ -455,9 +455,9 @@ git push origin feature/AmazingFeature
 
 ---
 
-## 🔑 Key Features Added 
+>## 🔑 Key Features Added 
 
->### 1. 
+### 1. 
 |---|PR Type Detection (12 types)|---|
 |-----------|-------------|--------------|
 | 🐛 Bug Fix | ✨ Feature | 📦 Dependency |
@@ -465,7 +465,7 @@ git push origin feature/AmazingFeature
 | ⚡ Performance | 🎨 Style/Lint | 🌐 Translation |
 | 🔧 Config | 🔒 Security | 🗑️ Deprecation |
 
->### 2.
+### 2.
 
 |---|Tool Detection (16+ tools)|---|
 |-------|----------|----------|
@@ -473,9 +473,18 @@ git push origin feature/AmazingFeature
 | 🤖 Dependabot | 🔄 Renovate Bot | 🛡️ Snyk Bot |
 | 💜 VS Code | 🧠 JetBrains IDE | ⚙️ GitHub Actions |
 
+### 3. Productivity/Brain Power Chart :
+
+- Profit-Loss style chart
+- Based on time between PRs
+- Factors: PR frequency, acceptance rate, consistency
+- Shows upward trend (high productivity) or downward trend (low productivity)
+- Color-coded: Green = Profit Zone, Red = Loss Zone
+
+
 ---
 <a name="quick-links"> </a>
-## 🔗 Quick Links
+>## 🔗 Quick Links
 
 <div align="left">
  
