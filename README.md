@@ -457,31 +457,13 @@ git push origin feature/AmazingFeature
 
 ## 🔑 Key Features Added 
 
-### 1. PR Type Detection (12 types):
-
-🐛 Bug Fix
-
-✨ Feature
-
-📚 Documentation
-
-♻️ Refactor
-
-📦 Dependency
-
-🧪 Test
-
-⚡ Performance
-
-🎨 Style/Lint
-
-🌐 Translation
-
-🔧 Config
-
-🔒 Security
-
-🗑️ Deprecation
+>### 1. 
+|---|PR Type Detection (12 types)|---|
+|-----------|-------------|--------------|
+| 🐛 Bug Fix | ✨ Feature | 📦 Dependency |
+| 📚 Documentation | ♻️ Refactor | 🧪 Test |
+| ⚡ Performance | 🎨 Style/Lint | 🌐 Translation |
+| 🔧 Config | 🔒 Security | 🗑️ Deprecation |
 
 ### 2. Tool Detection (16+ tools):
 
