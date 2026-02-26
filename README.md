@@ -89,7 +89,7 @@ git clone https://github.com/Chintanpatel24/c-pr.git
 cd c-pr
 
 # Run the script
-python c-pr.py
+python3 c-pr.py
 
 ```
 ### Method 2: Download Directly
