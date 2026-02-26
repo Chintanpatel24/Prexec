@@ -491,10 +491,13 @@ git push origin feature/AmazingFeature
 - Returns to main menu after each operation
 - Only exits when user selects option 4
 
+### 6. Properly Aligned Tables :
 
-
+- All ║ borders are consistent
+- Fixed width formatting
 
 ---
+
 <a name="quick-links"> </a>
 >## 🔗 Quick Links
 
