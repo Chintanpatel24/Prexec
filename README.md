@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="images/title.png">
+
 # GitHub Pull Request Tracker
 
 > 🚀 A simple Python tool to check all Pull Requests created by a GitHub user across all their repositories.
