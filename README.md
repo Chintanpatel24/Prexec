@@ -3,7 +3,7 @@
 <img src="images/title.png">
 
 
->## 🚀 A simple Python tool to check all Pull Requests created by a GitHub user across all their repositories.
+>## 🚀 A Python tool to check all Pull Requests created by a GitHub user across all their repositories.
 
 [![Python](https://img.shields.io/badge/Python-3.6%2B-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -81,6 +81,12 @@
 
 <a name="requirement"> </a>
 >## Optional requirement (mandatory to Generate Graphs)
+
+### Installing Matplotlib :
+
+- Matplotlib is a popular Python library for creating static, animated, and interactive visualizations.
+- Here's how to install it:
+
 
 
 
