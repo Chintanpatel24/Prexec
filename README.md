@@ -370,6 +370,9 @@ Summary Statistics:
 ---
 
 <a name="graph"> </a>
+>## 📈 Demo Graph 
+
+<img src="images/your-graph-by-cp.png">
 
 ---
 
