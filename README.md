@@ -18,10 +18,10 @@
 - [Features](#features)
 - [Prerequisites](#prerequisites)
 - [Optional requirement](#requirement)
+- [Demo Graph](#graph)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Example Output](#example-output)
-- [Graph](#graph)
 - [Limitations](#limitations)
 - [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
@@ -135,6 +135,13 @@ pip install matplotlib
 
 ---
 
+<a name="graph"> </a>
+>## 📈 Demo Graph 
+
+<img src="images/your-graph-by-cp.png">
+
+---
+
 <a name="installation"></a>
 >## 🔧 Installation
 
@@ -218,110 +225,12 @@ Step 3: The script will automatically detect and use it
 - Starting the Tool
 
 ```bash
-
+cd c-pr
 python3 c-pr.py
 
 ```
-
-<img src="images/1.png">
-
 - Main Menu
-```
-
-======================================================================
-  GITHUB TOTAL PR CHECKER
-  Check all PRs by a user across all their repositories
-======================================================================
-
-Select a method:
-1. Check all repositories owned by a user (Method 1)
-2. Check a specific repository (Method 2)
-3. Check multiple specific repositories (Method 3)
-4. Show help
-5. Exit
-
-Enter your choice (1-5):
-
-```
-
-### Method 1: Check All Repositories
-Best for: Getting complete PR statistics across all user's repos
-```
-text
-
-Enter your choice (1-5): 1
-👤 Enter GitHub username: Chintanpatel24
-```
-
-The script will:
-
-✅ Fetch all repositories owned by the user
-
-✅ Scan each repository for PRs
-
-✅ Display total statistics
-
-✅ Optionally show detailed list or export
-
-### Method 2: Check Single Repository
-Best for: Checking PRs in one specific repository
-```
-text
-
-Enter your choice (1-5): 2
-
-👤 Enter GitHub username: gaearon
-🏢 Enter repository owner: facebook
-📁 Enter repository name: react
-```
-The script will:
-
-✅ Check only the specified repository
-
-✅ Show PRs created by the user in that repo
-
-✅ Display statistics
-
-### Method 3: Check Multiple Specific Repositories
-Best for: Checking PRs in selected repositories only
-```
-text
-
-Enter your choice (1-5): 3
-
-👤 Enter GitHub username: gaearon
-
-📁 Enter repositories to check (one per line, format: owner/repo)
-   Example: facebook/react
-   Enter 'done' when finished:
-
-Repository: facebook/react
-Repository: reduxjs/redux
-Repository: facebook/create-react-app
-Repository: done
-```
-The script will:
-
-✅ Check only the repositories you specified
-
-✅ Show combined statistics
-
-✅ Display detailed list if requested
-
-- Export Options
-After scanning, you can:
-```
-text
-
-What would you like to do?
-1. Show detailed PR list
-2. Export to JSON
-3. Export to CSV
-4. All of the above
-5. Exit
-
-Enter your choice (1-5):
-```
+<img src="images/use.png">
 
 ---
 
@@ -336,13 +245,6 @@ Enter your choice (1-5):
 <img src="images/u6.png">
 <img src="images/u7.png">
 <img src="images/u8.png">
-
----
-
-<a name="graph"> </a>
->## 📈 Demo Graph 
-
-<img src="images/your-graph-by-cp.png">
 
 ---
 
