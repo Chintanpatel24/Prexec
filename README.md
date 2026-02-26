@@ -132,7 +132,7 @@ python c-pr.py
 ```bash
 
 # Download and run in one command
-curl -O https://raw.githubusercontent.com/Chintanpatel24/c-pr/main/c-pr.py && python c-pr.py
+curl -O https://raw.githubusercontent.com/Chintanpatel24/c-pr/main/c-pr.py && python3 c-pr.py
 
 ```
 
