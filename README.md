@@ -328,8 +328,14 @@ Enter your choice (1-5):
 <a name="example-output"> </a>
 >## 📊 Example Output
 
-<img src="images/2.png">
-<img src="images/4.png">
+<img src="images/u1.png">
+<img src="images/u2.png">
+<img src="images/u3.png">
+<img src="images/u4.png">
+<img src="images/u5.png">
+<img src="images/u6.png">
+<img src="images/u7.png">
+<img src="images/u8.png">
 
 ---
 
