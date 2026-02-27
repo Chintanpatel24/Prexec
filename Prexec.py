@@ -160,7 +160,7 @@ def print_header():
     print(header)
     print(f"   🖥️  Running on: {get_os_name()}")
     print(f"   📁 Home Directory: {get_home_directory()}")
-    print(f"   📊 Matplotlib: {'✅ Available' if MATPLOTLIB_AVAILABLE else '❌ Not Available'}")
+    print(f"   📊 Matplotlib: {'✅ Available' if MATPLOTLIB_AVAILABLE else '❌ Not Installed'}")
     print()
 
 
