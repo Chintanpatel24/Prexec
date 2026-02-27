@@ -188,22 +188,23 @@ python3 Prexec.py
 2. Using curl:
 
 ```bash
-
 # Download the script
 curl -O https://raw.githubusercontent.com/Chintanpatel24/Prexec/main/Prexec.py
 
 # Run it
 python3 Prexec.py
-
 ```
 
 3. One-Line Install & Run:
-
+>1.
 ```bash
-
 # Download and run in one command
 curl -O https://raw.githubusercontent.com/Chintanpatel24/Prexec/main/Prexec.py && python3 Prexec.py
-
+```
+>2. 
+```bash
+# For Windows PowerShell
+Invoke-WebRequest -Uri https://raw.githubusercontent.com/Chintanpatel24/Prexec/main/Prexec.py -OutFile Prexec.py; python Prexec.py
 ```
 
 ---
