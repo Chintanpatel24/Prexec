@@ -225,8 +225,8 @@ Step 3: The script will automatically detect and use it
 - Starting the Tool
 
 ```bash
-cd c-pr
-python3 c-pr.py
+cd Prexec
+python3 Prexec.py
 
 ```
 - Everything is a commend based !!
