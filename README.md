@@ -18,8 +18,8 @@
 - [Features](#features)
 - [Prerequisites](#prerequisites)
 - [Optional requirement](#requirement)
-- [Demo Graph](#graph)
 - [Installation](#installation)
+- [Demo Graph](#graph)
 - [Usage](#usage)
 - [Limitations](#limitations)
 - [Troubleshooting](#troubleshooting)
@@ -139,17 +139,21 @@ pip install matplotlib
 
 ---
 
-<a name="graph"> </a>
->## 📈 Demo Graph 
-
-<img src="images/your-graph-by-cp.png">
-
----
-
 <a name="installation"></a>
 >## 🔧 Installation
 
->### Method 1: Clone the Repository
+>### Method 1: Using One-Line Install & Run:
+>1.
+```bash
+# For linux & MAC
+curl -O https://raw.githubusercontent.com/Chintanpatel24/Prexec/main/Prexec.py && python3 Prexec.py
+```
+>2. 
+```bash
+# For Windows PowerShell
+Invoke-WebRequest -Uri https://raw.githubusercontent.com/Chintanpatel24/Prexec/main/Prexec.py -OutFile Prexec.py; python Prexec.py
+```
+>### Method 2: Clone the Repository
 
 ```bash
 # Clone this repository
@@ -162,7 +166,7 @@ cd Prexec
 python3 Prexec.py
 
 ```
->### Method 2: Download Directly
+>### Method 3: Download Directly
 1. Download Prexec.py from this repository
 2. Save it to your desired location
 3. Run it with Python
@@ -171,7 +175,7 @@ python3 Prexec.py
 python Prexec.py
 
 ```
->### Method 3: Quick Download (Using wget or curl)
+>### Method 4: Quick Download (Using wget or curl)
 
 1. Using wget:
 
@@ -195,18 +199,6 @@ curl -O https://raw.githubusercontent.com/Chintanpatel24/Prexec/main/Prexec.py
 python3 Prexec.py
 ```
 
-3. One-Line Install & Run:
->1.
-```bash
-# Download and run in one command
-curl -O https://raw.githubusercontent.com/Chintanpatel24/Prexec/main/Prexec.py && python3 Prexec.py
-```
->2. 
-```bash
-# For Windows PowerShell
-Invoke-WebRequest -Uri https://raw.githubusercontent.com/Chintanpatel24/Prexec/main/Prexec.py -OutFile Prexec.py; python Prexec.py
-```
-
 ---
 
 >## 🔑 Optional: Setup GitHub Token
@@ -222,6 +214,13 @@ GITHUB_TOKEN=your_token_here
 ```
 
 Step 3: The script will automatically detect and use it
+
+---
+
+<a name="graph"> </a>
+>## 📈 Demo Graph 
+
+<img src="images/your-graph-by-cp.png">
 
 ---
 
