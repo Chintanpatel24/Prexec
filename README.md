@@ -97,6 +97,10 @@ pip install matplotlib
 ```bash
 pip3 install matplotlib
 ```
+ 3. For Windows:
+```bash
+python -m pip install --upgrade pip
+```
 >### Method 2: Using conda
 
  1. If you're using Anaconda or Miniconda, use conda instead:
