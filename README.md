@@ -234,7 +234,7 @@ cd Prexec
 python3 Prexec.py
 
 ```
-- Everything is a commend based !!
+- Everything is a command based !!
 - Main Menu
 <img src="images/use.png">
 
