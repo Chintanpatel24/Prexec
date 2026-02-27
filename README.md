@@ -149,22 +149,22 @@ pip install matplotlib
 
 ```bash
 # Clone this repository
-git clone https://github.com/Chintanpatel24/c-pr.git
+git clone https://github.com/Chintanpatel24/Prexes.git
 
 # Navigate to the directory
-cd c-pr
+cd Prexec
 
 # Run the script
-python3 c-pr.py
+python3 Prexec.py
 
 ```
 >### Method 2: Download Directly
-1. Download c-pr.py from this repository
+1. Download Prexec.py from this repository
 2. Save it to your desired location
 3. Run it with Python
 
 ```bash
-python c-pr.py
+python Prexec.py
 
 ```
 >### Method 3: Quick Download (Using wget or curl)
@@ -174,10 +174,10 @@ python c-pr.py
 ```bash
 
 # Download the script
-wget https://raw.githubusercontent.com/Chintanpatel24/c-pr/main/c-pr.py
+wget https://raw.githubusercontent.com/Chintanpatel24/Prexec/main/Prexec.py
 
 # Run it
-python3 c-pr.py
+python3 Prexec.py
 
 ```
 
@@ -186,10 +186,10 @@ python3 c-pr.py
 ```bash
 
 # Download the script
-curl -O https://raw.githubusercontent.com/Chintanpatel24/c-pr/main/c-pr.py
+curl -O https://raw.githubusercontent.com/Chintanpatel24/Prexec/main/Prexec.py
 
 # Run it
-python3 c-pr.py
+python3 Prexec.py
 
 ```
 
@@ -198,7 +198,7 @@ python3 c-pr.py
 ```bash
 
 # Download and run in one command
-curl -O https://raw.githubusercontent.com/Chintanpatel24/c-pr/main/c-pr.py && python3 c-pr.py
+curl -O https://raw.githubusercontent.com/Chintanpatel24/Prexec/main/Prexec.py && python3 Prexec.py
 
 ```
 
