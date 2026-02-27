@@ -275,7 +275,7 @@ python3 Prexec.py
 
 ```bash
 # Run with output logging
-python check_pr.py 2>&1 | tee output.log
+python Prexec.py 2>&1 | tee output.log
 ```
 
 ---
