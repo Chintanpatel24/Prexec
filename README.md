@@ -33,7 +33,7 @@
 
 <a name="gui"> </a>
 >## 🖼️ GUI
-- NO installation needed : [Tap to use directly ↗](https://prexec-gui.netlify.app)
+- NO installation needed : [Tap to use directly ↗](https://prexec-gui.vercel.app)
   
 
 ---
