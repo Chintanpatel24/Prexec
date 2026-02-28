@@ -31,7 +31,7 @@
 ---
 
 >## 🖼️ GUI
-- NO installation needed : [Tap to use directly](prexec-gui.netlify.app)
+- NO installation needed : [Tap to use directly](https://prexec-gui.netlify.app)
   
 
 ---
