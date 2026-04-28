@@ -3,7 +3,7 @@
 <img src="images/prexec.png">
 
 
->## 🚀 A Python tool to check all Pull Requests created by a GitHub user across all their repositories.
+>## A Python tool to check all Pull Requests created by a GitHub user across all their repositories.
 
 [![Python](https://img.shields.io/badge/Python-3.6%2B-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -13,7 +13,7 @@
 
 ---
 
->## 📋 Table of Contents
+>## Table of Contents
 
 - [GUI](#gui)
 - [Features](#features)
@@ -25,21 +25,18 @@
 - [Limitations](#limitations)
 - [Troubleshooting](#troubleshooting)
 - [Example Output](#example-output)
-- [Contributing](#contributing)
-- [Key Features Added](#Key-Features-Added)
-- [Quick Links](#quick-links)
-
+- 
 ---
 
 <a name="gui"> </a>
->## 🖼️ GUI
+>## GUI
 - NO installation needed : [Tap to use directly ↗](https://prexecgui.netlify.app)
 - Make sure that you have entered correct profile name !!
 
 ---
 
 <a name="features"></a>
->## ✨ Features
+>## Features
 
 <table>
 <tr>
@@ -71,15 +68,15 @@
 ---
 
 <a name="prerequisites"></a>
->## 📦 Prerequisites
+>##  Prerequisites
 
 <div align="left">
 
 | Requirement | Description |
 |------------|-------------|
-| 🐍 Python | Version 3.6 or higher |
-| 🌐 Internet | Active connection |
-| 👤 GitHub Username | Valid username to check |
+|  Python | Version 3.6 or higher |
+|  Internet | Active connection |
+|  GitHub Username | Valid username to check |
 
 </div>
 
@@ -148,7 +145,7 @@ pip install matplotlib
 ---
 
 <a name="installation"></a>
->## 🔧 Installation
+>## Installation
 
 >### Method 1: Using One-Line Install & Run:
 >1.
@@ -209,7 +206,7 @@ python3 Prexec.py
 
 ---
 
->## 🔑 Optional: Setup GitHub Token
+>##  Optional: Setup GitHub Token
 
 - For higher API limits (5000 requests/hour instead of 60):
 
@@ -226,14 +223,14 @@ Step 3: The script will automatically detect and use it
 ---
 
 <a name="graph"> </a>
->## 📈 Demo Graph 
+>##  Demo Graph 
 
 <img src="images/your-graph-by-cp.png">
 
 ---
 
 <a name="usage"></a>
->## 🚀 Usage
+>##  Usage
 - Starting the Tool
 
 ```bash
@@ -248,21 +245,21 @@ python3 Prexec.py
 ---
 
 <a name="limitations"> </a>
->## ⚠️ Limitations
+>##  Limitations
 
-🔄 GitHub API Rate Limits
+ GitHub API Rate Limits
 
 <div align="left">
  
 | Authentication |	Rate Limit |	Resets After |
 |---------------|--------|---------|
-| ❌ Without Token	| 60 requests/hour	| 1 hour |
-| ✅ With Token	| 5,000 requests/hour	| 1 hour |
+| Without Token	| 60 requests/hour	| 1 hour |
+| With Token	| 5,000 requests/hour	| 1 hour |
 
 ---
 
 <a name="troubleshooting"> </a>
->## 🛠️ Troubleshooting
+>##  Troubleshooting
 
 
 <div align="left">
@@ -289,7 +286,7 @@ python Prexec.py 2>&1 | tee output.log
 ---
 
 <a name="example-output"> </a>
->## 📊 Example Output
+>## Example Output
 
 <img src="images/u1.png">
 <img src="images/u2.png">
@@ -299,113 +296,6 @@ python Prexec.py 2>&1 | tee output.log
 <img src="images/u6.png">
 <img src="images/u7.png">
 <img src="images/u8.png">
-
----
-
-<a name="contributing"> </a>
->## 🤝 Contributing
-
-### Contributions are welcome! 🎉
-
-- How to Contribute:
-```bash
-
-# 1. Fork the repository
-# 2. Clone your fork
-git clone https://github.com/Chintanpatel24/c-pr.git
-
-# 3. Create a feature branch
-git checkout -b feature/AmazingFeature
-
-# 4. Make your changes
-# 5. Commit your changes
-git commit -m "Add some AmazingFeature"
-
-# 6. Push to the branch
-git push origin feature/AmazingFeature
-
-# 7. Open a Pull Request
-```
-
-### 💡 Ideas for Contributions:
-
- 1. Add support for GitHub Organizations
- 2. Export to Excel format
- 3. Create a GUI version
- 4. Add data visualization (charts/graphs)
- 5. Filter PRs by date range
- 6. Add progress bar for large scans
- 7. Multi-threading for faster scanning
- 8. Add unit tests
- 9. Create Docker container
-10. Add webhook support for real-time tracking
-
-### 📋 Contribution Guidelines:
-1. Follow PEP 8 style guide
-2. Add comments for complex logic
-3. Update README for new features
-4. Keep dependencies minimal (preferably zero)
-5. Test on Python 3.6+
-
----
-
-<a name="Key-Features-Added"> </a>
->## 🔑 Key Features Added 
-
-### 1. 
-|---|PR Type Detection (12 types)|---|
-|-----------|-------------|--------------|
-| 🐛 Bug Fix | ✨ Feature | 📦 Dependency |
-| 📚 Documentation | ♻️ Refactor | 🧪 Test |
-| ⚡ Performance | 🎨 Style/Lint | 🌐 Translation |
-| 🔧 Config | 🔒 Security | 🗑️ Deprecation |
-
-### 2.
-|---|Tool Detection (16+ tools)|---|
-|-------|----------|----------|
-| 🖥️ GitHub Web | 💻 GitHub CLI (gh) | 🔧 Git CLI + API |
-| 🤖 Dependabot | 🔄 Renovate Bot | 🛡️ Snyk Bot |
-| 💜 VS Code | 🧠 JetBrains IDE | ⚙️ GitHub Actions |
-
-### 3. Productivity/Brain Power Chart :
-
-- Profit-Loss style chart
-- Based on time between PRs
-- Factors: PR frequency, acceptance rate, consistency
-- Shows upward trend (high productivity) or downward trend (low productivity)
-- Color-coded: Green = Profit Zone, Red = Loss Zone
-
-### 4. Graph Output :
-
-- Saved as your-graph-by-cp.png
-- Dark theme with gradient effects
-- 6 different visualizations including the productivity chart
-
-### 5. Loop-Based Menu :
-
-- Returns to main menu after each operation
-- Only exits when user selects option 4
-
-### 6. Properly Aligned Tables :
-
-- All ║ borders are consistent
-- Fixed width formatting
-
----
-
-<a name="quick-links"> </a>
->## 🔗 Quick Links
-
-<div align="left">
- 
-|Resource |	Link |
-|-------|---------|
-|📖 GitHub API Docs	| docs.github.com/en/rest |
-|🐍 Python Download |	python.org/downloads |
-|🔑 Create GitHub Token	| github.com/settings/tokens |
-|📚 Pull Request Guide |	docs.github.com/en/pull-requests |
-
-</div>
 
 ---
 
