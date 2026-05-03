@@ -21,4 +21,4 @@
 ---
 
 >[!NOTE]
->For more : [visit python-installation.md](python-installation.md)
+>For more : [python-installation.md](python-installation.md)
