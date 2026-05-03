@@ -286,8 +286,12 @@ python Prexec.py 2>&1 | tee output.log
 ---
 
 <a name="example-output"> </a>
->## Example Output
+## Example Output of python script
 
+<details>
+       
+  <summary>Tap to view ⤥ </summary>
+  
 <img src="images/u1.png">
 <img src="images/u2.png">
 <img src="images/u3.png">
@@ -296,6 +300,8 @@ python Prexec.py 2>&1 | tee output.log
 <img src="images/u6.png">
 <img src="images/u7.png">
 <img src="images/u8.png">
+
+</details>   
 
 ---
 
