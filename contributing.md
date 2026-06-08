@@ -31,3 +31,6 @@ Found a bug? Please open a new issue. Include:
 ---
 
 ## *I appreciate any help, from fixing typos to tackling larger bugs !!*   
+
+>[!note]
+>You can use AI (LLMs or Agents) for code 
