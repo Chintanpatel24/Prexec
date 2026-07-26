@@ -17,6 +17,7 @@
 >## GUI
 - NO installation needed : [Tap to use directly ↗](https://prexecgui.netlify.app)
 - Make sure that you have entered correct profile name !!
+<img width="1319" height="685" alt="prexec" src="https://github.com/user-attachments/assets/b68ff56e-4cc8-401b-99e1-a6abbfce0b39" />
 
 ---
 
