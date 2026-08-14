@@ -23,3 +23,6 @@
 
 >[!NOTE]
 >For more : [python-installation.md](python-installation.md)
+
+## Star History
+[![RepoStars](https://repostars.dev/api/embed?repo=Chintanpatel24%2FPrexec&theme=dark)](https://repostars.dev/?repos=Chintanpatel24%2FPrexec&theme=dark)
